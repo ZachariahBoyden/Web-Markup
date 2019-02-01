@@ -14,6 +14,25 @@ body
 
 }
 
+html
+{
+   background-image: url("background.jpeg");
+}
+
+header
+{
+	
+    height: 20%; 
+    background-image : url("companylogoBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    font-style: bold;
+     font-size: 200%;
+}
+
 #video
 {
     width:100%;

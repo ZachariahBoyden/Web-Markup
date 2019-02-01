@@ -64,6 +64,7 @@ header
     font-size: 200%;
     font-style: bold;
 }
+
 .main-nav
 {    
     
@@ -105,13 +106,6 @@ section
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
- }
-
-.productpage img
-{
-    width: 309px;
-    height: 200px;
-    margin: 0.19em 0.19em 0.19em 0.19em;
 }
 
 p  
@@ -121,6 +115,13 @@ p
     text-align: center;
     font-size: 300%;
     height: 10%;
+}
+
+.productpage img
+{
+    width: 309px;
+    height: 200px;
+    margin: 0.19em 0.19em 0.19em 0.19em;
 }
 
 #video
@@ -133,18 +134,18 @@ p
     position: fixed;
 }
 
-select 
-{
-    float: right;
-    margin: 1% 1% 1% 1%;
-}
-
 .indeximg   img  
 {
     height: 50%;
     width: 100%;
     justify-content: center;
     display:  flex;
+}
+
+select 
+{
+    float: right;
+    margin: 1% 1% 1% 1%;
 }
 
 footer
@@ -155,3 +156,4 @@ footer
     height: auto;
     padding: 15px;
 }
+

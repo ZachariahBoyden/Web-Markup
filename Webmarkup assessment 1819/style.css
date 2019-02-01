@@ -39,19 +39,6 @@ html
    background-image: url("background.jpeg");
 }
 
-h2
-{
-    background-color: #2699FB;
-    color: #ffffff;
-    margin-left: auto;
-    margin-right: auto; 
-    text-align: center;
-	height: auto;
-    padding: 15px;
-    font-size: auto;
-    font:  arial, serif;
-} 
-
 header
 {
     height: 20%; 
@@ -157,3 +144,15 @@ footer
     padding: 15px;
 }
 
+h2
+{
+    background-color: #2699FB;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+	height: auto;
+    padding: 15px;
+    font-size: auto;
+    font:  arial, serif;
+}

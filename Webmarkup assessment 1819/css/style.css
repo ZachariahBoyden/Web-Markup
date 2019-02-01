@@ -36,13 +36,13 @@ body
 
 html
 {
-   background-image: url("image/background.jpeg");
+   background-image: url("background.jpeg");
 }
 
 header
 {
     height: 20%; 
-    background-image : url("image/companylogoBG.jpg");
+    background-image : url("companylogoBG.jpg");
     text-align: center;
     color: #ffffff;
     background-size: cover;

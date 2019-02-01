@@ -7,11 +7,31 @@
     padding:0%;
 }
 
-body
+body 
 {
+   max-width: 60em;
+   background-size: 100% 100%;
+   margin:0 auto;
+ 
+}
 
+@media screen and (max-width: 60em)
+{
+body 
 
+{
+   width: 100%;
+  
+}
+}
 
+@media screen and (max-width:  22.5em)
+{
+body 
+{
+   width: 100%;
+   
+}
 }
 
 html
@@ -19,18 +39,88 @@ html
    background-image: url("background.jpeg");
 }
 
+h2
+{
+    background-color: #2699FB;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+	height: auto;
+    padding: 15px;
+    font-size: auto;
+    font:  arial, serif;
+} 
+
 header
 {
-	
     height: 20%; 
     background-image : url("companylogoBG.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     text-align: center;
     color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 200%;
     font-style: bold;
-     font-size: 200%;
+}
+.main-nav
+{    
+    
+    
+    height: auto;
+    padding: 15px;
+    list-style: none;
+    
+ }
+
+.main-nav li 
+{
+    display: inline-block;
+
+}
+.main-nav li a
+{   
+    color: white;
+    padding:  5px 20px;
+    font: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+ul  
+{
+    background-color:#808080;
+    text-align: center;
+}
+
+section
+{
+    background-color: #ffffff;
+}
+
+.productpage   
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+ }
+
+.productpage img
+{
+    width: 309px;
+    height: 200px;
+    margin: 0.19em 0.19em 0.19em 0.19em;
+}
+
+p  
+{
+    background-color: #2699FB;
+    color: #ffffff;
+    text-align: center;
+    font-size: 300%;
+    height: 10%;
 }
 
 #video

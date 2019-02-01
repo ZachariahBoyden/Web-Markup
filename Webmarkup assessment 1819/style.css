@@ -1,5 +1,4 @@
 *
-
 {
     font-family: "Times New Roman", "Times", "serif";
     border:0%;
@@ -71,7 +70,7 @@ header
 {   
     color: white;
     padding:  5px 20px;
-    font: "Roboto", sans-serif;
+    font: "Times New Roman", "Times", "serif";
     text-decoration: none;
     font-size: 15px;
     text-align: center;
@@ -110,15 +109,21 @@ p
     height: 200px;
     margin: 0.19em 0.19em 0.19em 0.19em;
 }
-
+/* Video background*/
 #video
 {
-    width:100%;
-    height: all;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 0;
     left: 0;
-    z-index:-1;
-    position: fixed;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: auto;
+    max-width: 100%;
+    z-index: -1;
 }
 
 .indeximg   img  
@@ -154,9 +159,17 @@ h2
 	height: auto;
     padding: 15px;
     font-size: auto;
-    font:  arial, serif;
+    font: "Times New Roman", "Times", "serif";
 }
 
+h3
+{
+    font-family: "Times New Roman", "Time", "serif";
+    color: #aaaaaa;
+    padding: 16px;
+    font-size: 1.25rem;
+}
+/* Contact page all below */
 .contactpage 
 {
     border:0%;
@@ -176,7 +189,7 @@ fieldset
     box-sizing:border-box;
     border:0.01em solid #000;
     color:#A3A3A3;
-    font:100% Arial;
+    font:100% "Times New Roman", "Times", "serif";
     padding:1%;
     margin:0;
     margin-top:5%;
@@ -198,7 +211,7 @@ fieldset
 aside
 {
     text-transform:uppercase; 
-    font:800% Arial;
+    font:800% "Times New Roman", "Times", "serif";
     border: 0.01em #fff;
     border-style:none solid;
 }
@@ -210,7 +223,7 @@ form
 
 input
 {
-    font:100% Arial;
+    font:100% "Times New Roman", "Times", "serif";
     box-sizing:border-box;
     border-color:#000;
     border-style:solid;
@@ -221,7 +234,7 @@ input
 
 select
 {
-    font: 100% Arial;
+    font: 100% "Times New Roman", "Times", "serif";
     position:relative;
     float:right;
     border-color:#000;
@@ -232,11 +245,11 @@ select
 
 textarea
 {
+    font:100% "Times New Roman", "Times", "serif";
     box-sizing:border-box;
     border:solid;
     border-width:0.01em;
     resize: none;
-    font:100% Arial;
     width:100%;
     height:25%;
 }
